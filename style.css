@@ -1,0 +1,239 @@
+/* header section */
+*
+{
+    margin: 0;
+    padding:0;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px whitesmoke;
+   
+
+}
+#bodywhole
+{
+    background-color: #0D1B39;
+
+}
+#headbox
+{
+    display: flex;
+    margin-top: 5px;
+    height: 10%;
+}
+#headbox1
+{
+    margin-left: 20px;
+   display: flex;
+   margin-top: 10px;
+   margin-right: 350px;
+}
+
+#thermo 
+{
+    color:whitesmoke    ;    
+    height: 80px;
+   font-size: 100px;
+    margin:0px;
+    padding: 0px;
+    display: inline;
+    text-shadow: 1px 1px 2px whitesmoke;
+    
+}
+#logopara
+{
+    display: inline;
+    line-height : 30px;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+#w1
+{
+    margin-top: 6px;
+    display: block;
+    font-size: 20px;
+}
+#w2
+{
+    display: block;
+    font-size: 20px;
+}
+#w3
+{
+    font-size: 20px;
+}
+#headbox2
+{
+    /* margin-left: 1160px; */
+    display: flex;
+    margin-top: 10px;
+    margin-left :350px; 
+    
+}
+
+#setpara
+{
+    margin-left: 460px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+     text-shadow: 1px 1px 2px whitesmoke;
+}
+#loopicon
+{
+    font-size: 40px;
+    margin-top: 25px;
+    margin-right: 20px;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+/* header ended */
+/* main section started */
+#work
+{
+    height: 550px;
+    margin-top: 40px;
+}
+#workform
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.formclass::placeholder
+{
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px whitesmoke;
+    padding-left: 40px;
+    display: flex;
+    
+    
+   
+}
+.forminput:hover::placeholder
+{
+      visibility: hidden;
+      
+}
+.formclass
+{
+   width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: #0D1B39;
+    border-width: 1px;
+    border-color: whitesmoke;
+    box-shadow: 1px 1px 4px whitesmoke;
+    font-size: larger;
+
+}
+#subbtn
+{
+    margin-top: 80px;
+    display: block  ;
+    margin-left: 630px;
+    width: 290px;
+    height: 32px;
+    text-shadow: 1px 1px 5px whitesmoke;
+    
+}
+#mainblock
+{
+    height: 600px;
+    width: 1450px;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+#mainblock p
+{
+    margin-left: 130px;
+}
+#mainblock1
+{
+    display: block;
+    height: 300px;
+     display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mainblock2
+{
+    display: block;
+    height: 300px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.displaybox
+{
+    display: inline-block;
+    width: 340px;
+    height: 250px;
+}
+.displaybox:hover
+{
+    transform: scale(1.01);
+}
+#mainblock3
+{
+   height: 300px;
+    width: 1450px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: block;
+    margin-top: 50px;
+}
+#mainblock4
+{
+   height: 300px;
+    width: 1450px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: block;
+    margin-top: 50px;
+}
+.displayin
+{
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoin
+{
+    font-size: 18px;
+    padding-left: 120px;
+    text-decoration:0.5px underline;
+}
+/* main section ended */
+ /* footer section */
+#foo
+{
+    position: relative;
+    margin-top: 250px;
+    margin-bottom: 0px;
+   margin-left: 700px;
+ 
+}
+#foopara
+{
+    text-shadow: 1px 1px 2px white;
+    /* text-shadow: 1px 1px 2px red; */
+    display: flex;
+       font-size: 20px;
+
+
+}
+#hearticon
+{
+    font-size: large;
+    margin-left: 3px;
+    margin-top: 2px;
+       font-size: 20px;
+}
+/* footer section */

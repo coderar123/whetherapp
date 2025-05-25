@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body id="bodywhole">
+    <header id="headbox">
+        <div id="headbox1">
+         <i class="material-icons" id="thermo">thermostat</i>
+         <p id="logopara">
+            <span id="w1">The</span> 
+            <span id="w2">Weather</span>
+             <span id="w3">Dashboard</span></p>
+        </div>
+        <div id="headbox2">  
+           <a href="index.html" id="setpara">Change Setting</a>
+            <i class="material-icons" id="loopicon" >repeat_on</i>   
+        </div>
+    </header>
+
+
+    <main id="work">
+        <div id="workform">
+        <input type="text" class="formclass forminput" id="place" placeholder="Enter the place" style="padding-left: 40px;">
+        <input type="text" class="formclass forminput" id="distric" placeholder="Enter the district"style="padding-left: 40px;">
+        <input type="text" class="formclass forminput" id="state" placeholder="Enter the state" style="padding-left: 40px;">
+        <input type="text" class="formclass forminput" id="country" placeholder="Enter the country" style="padding-left: 40px;"> 
+        </div>
+        <button onclick="getwhether()" class="formclass" id="subbtn">Submit</button>
+        <div  id="mainblock" class="formclass" >
+        <div id="mainblock1">
+            <div class="displaybox formclass" id="latbox">
+                <p>interval</p>
+                <div class="formclass displayin" id="intervalin">interval</div>
+                <a  href="https://www.splashlearn.com/math-vocabulary/time/time-interval" class="infoin">Read More</a>
+            </div>
+            <div class="displaybox formclass" id="lonbox">
+                <p>pressure msl</p>
+                <div class="formclass displayin" id="pressure_mslin">pressure msl</div>
+                <a href="https://byjus.com/physics/pressure/" class="infoin">Read More</a>
+            </div>
+            <div class="displaybox formclass" id="tempbox">
+                <p>rain</p>
+                <div class="formclass displayin" id="rainin">rain</div>
+                <a href="https://www.clearias.com/rainfall/" class="infoin">Read More</a>
+            </div>
+            <div class="displaybox formclass" id="rainbox">
+                <p>snowfall</p>
+                <div class="formclass displayin" id="snowfallin">snowfall</div>
+                <a href="https://en.wikipedia.org/wiki/Snow" class="infoin">Read More</a>
+            </div>
+        </div>
+        <div id="mainblock2">
+            <div class="displaybox formclass" id="snowbox">
+                <p>surface pressure</p>
+                <div class="formclass displayin" id="surface_pressurein">surface pressure</div>
+                <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/16%3A_Hydrostatics/16.04%3A_Pressure_on_a_Horizontal_Surface._Pressure_at_Depth " class="infoin">Read More</a>
+            </div>
+            <div class="displaybox formclass" id="prebox">
+                <p>temperature</p>
+                <div class="formclass displayin" id="temperature_2min">temperature </div>
+                <a href="https://ntaexam.net/temperature/" class="infoin">Read More</a> 
+            </div>
+            <div class="displaybox formclass" id="windbox">
+                <p>wind direction</p>
+                <div class="formclass displayin" id="wind_direction_10min">wind direction</div>
+                 <a href="https://en.wikipedia.org/wiki/Wind_direction" class="infoin">Read More</a>
+            </div>
+            <div class="displaybox formclass" id="winspedbox">
+                <p>wind speed</p>
+                <div class="formclass displayin" id="wind_speed_10min">wind speed</div>
+                 <a href="https://en.wikipedia.org/wiki/Wind_speed" class="infoin">Read More</a>
+        </div>
+        </div>
+        </div>
+    </main>
+    <footer id="foo">
+        <p id="foopara">Made By Aryan Gupta   <i class="material-icons" id="hearticon" >favorite</i></p>
+    </footer>
+   
+   <script src="https://kit.fontawesome.com/305e5f17a2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
