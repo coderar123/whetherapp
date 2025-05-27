@@ -237,3 +237,20 @@
        font-size: 20px;
 }
 /* footer section */
+@media (min-width:500px)
+{
+    #headbox1
+    {
+        margin-right: 40%;
+    }
+    #headbox2
+    {
+        margin-right: 40%;
+    }
+    
+    .displayin
+    {
+        display: block;
+    }
+
+}
